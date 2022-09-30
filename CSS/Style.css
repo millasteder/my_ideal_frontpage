@@ -2,15 +2,29 @@ body{
 background-color: rgb(190, 208, 241);
 }
 
-header {
-    background-color: rgb(233, 242, 242);
-}
+        header {
+        background-color: rgb(233, 242, 242);
+        }
 
 
-p {
-    background-color: aliceblue;
-}
 
-.first-paragraph {
-    background-color: rgb(79, 132, 177);
-}
+        p {
+         background-color: aliceblue;
+        }
+
+
+
+        .first-paragraph {
+         background-color: rgb(79, 132, 177);
+        }
+
+
+
+        #second-paragraph {
+            background-color: blue;
+            color: #ffffff;
+            width: 600px; 
+            height:  50px;
+            padding: 20px 10px 30px; 
+            margin: 50px 100px 200px 200px
+        }
