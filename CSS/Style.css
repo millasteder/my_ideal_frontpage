@@ -1,0 +1,16 @@
+body{
+background-color: rgb(190, 208, 241);
+}
+
+header {
+    background-color: rgb(233, 242, 242);
+}
+
+
+p {
+    background-color: aliceblue;
+}
+
+.first-paragraph {
+    background-color: rgb(79, 132, 177);
+}
