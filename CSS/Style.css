@@ -2,20 +2,21 @@ body{
 background-color: rgb(190, 208, 241);
 }
 
-        header {
-        background-color: rgb(233, 242, 242);
+        header { 
+        background-color: rgb(7, 11, 11);
         }
 
 
 
-        p {
+        { 
          background-color: aliceblue;
+        
         }
 
 
 
-        .first-paragraph {
-         background-color: rgb(79, 132, 177);
+        .first-paragraph { font-family: Arial, Helvetica, sans-serif; font-size: 20px;
+         background-color: rgb(159, 165, 171);
         }
 
 
@@ -28,3 +29,6 @@ background-color: rgb(190, 208, 241);
             padding: 20px 10px 30px; 
             margin: 50px 100px 200px 200px
         }
+        
+
+        
