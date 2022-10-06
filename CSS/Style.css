@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;600&display=swap');
 
 body {
-    background-color: #e7d6e7;
+    background-color: #a7a6a5;
     /* font-family: 'Peralta', cursive;  dette setter et spesifikk font-face til side */
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
@@ -15,7 +15,7 @@ header {
     justify-content: space-between;
     height: 120px;
     align-items: center;
-    background-color: aliceblue;
+    background-color: rgb(102, 88, 71);
     padding: 20px;
     /*position: fixed;
     width: 100%;
@@ -67,21 +67,22 @@ header ul {
 .box1 {
     width: 33%;
     height: 80px;
-    background-color: rgb(142, 166, 142);
+    background-color: rgb(188, 197, 188);
     display: inline-block;
+    
 }
 
 .box2 {
     width: 33%;
     height: 80px;
-    background-color: rgb(166, 189, 166);
+    background-color: rgb(188, 197, 188);
     display: inline-block;
 }
 
 .box3 {
     width: 33%;
     height: 80px;
-    background-color: rgb(155, 136, 111);
+    background-color: rgb(188, 197, 188);
     display: inline-block;
 }
 
@@ -94,6 +95,7 @@ p {
     /*display: block;
     position: fixed;
     top: 124px;*/
+    
 }
 
 .first-paragraph {
@@ -115,6 +117,7 @@ p {
     margin-right: auto;
     margin-bottom: 0;
     margin-left: auto;
+    justify-content: center;
 }
 .image-1 {
     width: 100%;
@@ -125,10 +128,12 @@ p {
     height: 400px;
     background-color: rgb(224, 235, 213);
     position: relative;
+    
+    
 }
 
 .inside-box {
-    background-color: darkcyan;
+    background-color: rgb(143, 178, 178);
     color: #ffffff;
     width: 50%;
     position: absolute;
@@ -136,6 +141,7 @@ p {
     left: 40px;
     font-size: 32px;
     font-family: 'Montserrat', sans-serif;
+    
 }
 
 .box-model {
@@ -153,6 +159,7 @@ p {
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
+    
 }
 
 .flex-item {
