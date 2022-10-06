@@ -12,6 +12,10 @@ background-color: rgb(190, 208, 241);
         font-family: 'Montserrat', sans-serif;
         }
 
+
+
+    
+
         
         
         @media screen and (min-width: 700px) {
@@ -44,4 +48,30 @@ background-color: rgb(190, 208, 241);
             padding: 20px 10px 30px; 
             margin: 50px 100px 200px 200px
          }
+
+         .box1 {
+            width: 33%;
+            height: 80px;
+            background-color: darkgreen;
+            display: inline-block;
+        }
+        
+        .box2 {
+            width: 33%;
+            height: 80px;
+            background-color: darkseagreen;
+            display: inline-block;
+        }
+        
+        .box3 {
+            width: 33%;
+            height: 80px;
+            background-color: burlywood;
+            display: inline-block;
+        }
+        
+
+         
+         
+       
         
