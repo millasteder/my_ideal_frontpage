@@ -91,12 +91,29 @@ main h1 {
     justify-content: center;
 }
 
+
+
+
+
+
+
 .main-picture {
     width: 500px;
     height: 500px;
     border-radius: 1rem;
 }
 
+#third-paragraph {
+    background-color: rgb(100, 110, 80);
+    color: #ffffff;
+    height: 200px;
+    width: 600px;
+    padding: 10px 10px 10px 10px;
+    margin: 0 auto 0 auto;
+    transform: translate(-300px, -230px);
+    border-radius: 1rem;
+    
+}
 
 .Ektepar {
     height: 370px;
