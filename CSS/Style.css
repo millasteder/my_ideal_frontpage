@@ -2,9 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Peralta&display=swap');*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;600&display=swap');
 
+html {
+    font-size: 20px;
+}
+
 body {
     
-    background-color: #aca9a5;
+    background-color: #d1cfcc;
     /* font-family: 'Peralta', cursive;  dette setter et spesifikk font-face til side */
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
@@ -18,14 +22,13 @@ header {
     flex-direction: row;
     justify-content: space-between;
     height: 120px;
-    align-items: center;
-    background-color: rgb(102, 88, 71);
-    padding: 20px;
-    /*position: fixed;
     width: 100%;
-    display: block;
-    top: 0;
-    z-index: 5;*/
+    align-items: center;
+    background-color: rgba(133, 149, 133, 0.6);
+    padding: 20px;
+    position:fixed;
+    
+   
 
 }
 
@@ -48,67 +51,141 @@ header ul {
     }
 }
 
-.hamburger {
-    display: block;
+main {
+    width: 100%;
+    margin: 1rem;
+    padding: 150px 0 0 0;
 }
 
-@media screen and (min-width: 700px) {
-    .hamburger {
-        display: none;
+main h1 {
+    text-align: center;
+}
+
+@media screen and (min-width: 900px) {
+    main {
+        max-width: 1200px;
+        margin: 1rem auto 1rem auto;
     }
 }
 
-@media screen and (max-width: 300px) {
-    header {
-        display: block;
-        background-color: rgb(165, 184, 201);
-    }
+#first-paragraph {
+    width: 100%;
+    text-align: center;
 }
 
-.centered {
-    width: 80%;
-    margin: 0 auto 0 auto;
-}
-
-
-
-p {
-    background-color: rgb(217, 217, 231);
-    color: #ffffff;
-}
-
-
-
-.first-paragraph {
-    background-color:rgb(153, 151, 139);
-}
 
 #second-paragraph {
     background-color: rgb(100, 110, 80);
     color: #ffffff;
+    height: 200px;
     width: 600px;
-    padding: 20px 10px 100px 60px;
+    padding: 10px 10px 10px 10px;
     margin: 0 auto 0 auto;
+    transform: translate(300px, -350px);
+    border-radius: 1rem;
+    justify-content: center;
 }
 
 .main-picture {
-    width: 1500px;
-    /*margin: 0 auto 0 auto;*/
-    margin-top: 50;
-    margin-right: auto;
-    margin-bottom: 0;
-    margin-left: auto;
+    width: 500px;
+    height: 500px;
+    border-radius: 1rem;
+}
+
+
+.Ektepar {
+    height: 370px;
+    width: 400px;
+    border-radius: 1rem;
+    justify-content: center;
+}
+
+.Elven {
+    height: 370px;
+    width: 400px;
+    border-radius: 1rem;
+    justify-content: center;
+}
+
+.Hest {
+    height: 370px;
+    width: 400px;
+    border-radius: 1rem;
+    justify-content: center;
+}
+
+.Tvillinger {
+    height: 370px;
+    width: 400px;
+    border-radius: 1rem;
     justify-content: center;
 }
 
 
+.Nepal {
+    height: 370px;
+    width: 400px;
+    border-radius: 1rem;
+    justify-content: center;
+}
+
+.Masai-kvinner {
+    height: 370px;
+    width: 400px;
+    border-radius: 1rem;
+    justify-content: center;
+
+}
 
 
 
+.Morogbarn {
+    height: 370px;
+    width: 400px;
+    border-radius: 1rem;
+    justify-content: center;
+}
 
 
+.Sovende {
+    height: 370px;
+    width: 400px;
+    border-radius: 1rem;
+    justify-content: center;
+}
 
 
+.Portugal {
+    height: 370px;
+    width: 400px;
+    border-radius: 1rem;
+    justify-content: center;
+}
+
+.Images {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-evenly;
+padding-top: 80px;
+}
+
+.Images2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly; 
+    padding-top: 80px; 
+}
+
+
+.Images3 {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-evenly;
+padding-top: 80px;
+}
 
 
 
