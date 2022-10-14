@@ -12,8 +12,8 @@ body {
     /* font-family: 'Peralta', cursive;  dette setter et spesifikk font-face til side */
     font-family: 'Montserrat', sans-serif; color: #ffffff;
     font-size: 20px;
-    background-image: url('./background.jpeg')
-    
+    background-image: url('./background.jpeg');
+    background-size: contain;
     
 
 }
@@ -32,6 +32,10 @@ header {
     
    
 
+}
+
+header nav ul li:hover {
+    text-decoration:underline
 }
 
 
@@ -57,8 +61,8 @@ main {
     width: 100%;
     margin: 1rem;
     padding: 150px 0 0 0;
-    color: greenyellow;
-    size: 800px;
+    color: #adff2f;
+    width: 100%;
 }
 
 main h1 {
@@ -82,13 +86,17 @@ main h3 {
     justify-content: space-around;
 }
 
+.main-section {
+    padding: 300px 0 100px 0;
+}
+
 
 
 #first-paragraph {
     width: 100%;
     text-align: center;
     color: rgb(29, 213, 29);
-    font-size: 200px;
+    font-size: 10vw;
 }
 
 
@@ -105,7 +113,7 @@ main h3 {
 }
 
 
-
+/* 
 
 .Ektepar {
     height: 370px;
@@ -149,11 +157,11 @@ main h3 {
     border-radius: 1rem;
     justify-content: center;
 
-}
+} */
 
 
 
-.Morogbarn {
+/* .Morogbarn {
     height: 370px;
     width: 400px;
     border-radius: 1rem;
@@ -162,8 +170,8 @@ main h3 {
 
 
 .Sovende {
-    height: 370px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
     border-radius: 1rem;
     justify-content: center;
 }
@@ -175,31 +183,63 @@ main h3 {
     border-radius: 1rem;
     justify-content: center;
 }
-
+ */
 .Images {
 display: flex;
 flex-direction: row;
+flex-wrap: wrap;
 align-items: center;
 justify-content: space-around;
 padding-top: 80px;
+gap: 20px;
 
+}
+
+.Images img {
+    height: 350px;
+    width: 380px;
+    border-radius: 1rem;
+    justify-content: center;
+    border: 5px solid #0b0b0b;
+    
 }
 
 .Images2 {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-around; 
     padding-top: 80px; 
+    gap: 20px;
+}
+.Images2 img {
+    height: 350px;
+    width: 380px;
+    border-radius: 1rem;
+    justify-content: center;
+    border: 5px solid #0b0b0b;
+    
 }
 
 
 .Images3 {
 display: flex;
 flex-direction: row;
+flex-wrap: wrap;
 align-items: center;
 justify-content: space-evenly;
 padding-top: 80px;
+gap: 20px;
+}
+
+.Images3 img{
+    height: 350px;
+    width: 380px;
+    border-radius: 1rem;
+    justify-content: center;
+    border: 5px solid #0b0b0b;
+    
 }
 
 
