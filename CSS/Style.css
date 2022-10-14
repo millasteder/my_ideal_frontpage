@@ -79,11 +79,30 @@ main h1 {
 main h2 {
     text-align: center;
     color: #fc6000;
+    
 }
 
-main h3 {
-    transform: translate( -50px, 60px);
-    justify-content: space-around;
+
+
+  main h3 {
+   
+    transform: translate(30px, -20px);
+    color: #adff2f;
+    
+}
+
+main h4 {
+    transform: translate( 30px, 10px);
+    color: #ffffff;
+}
+
+
+
+
+
+main h5 {
+    transform: translate( 30px, 50px);
+    color: #adff2f;
 }
 
 .main-section {
