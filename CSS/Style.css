@@ -72,6 +72,11 @@ main h1 {
     }
 }
 
+main h2 {
+    text-align: center;
+    color: #fc6000;
+}
+
 main h3 {
     transform: translate( -50px, 60px);
     justify-content: space-around;
