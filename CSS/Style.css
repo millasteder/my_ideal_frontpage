@@ -137,28 +137,24 @@ main h5 {
 .Ektepar {
     height: 370px;
     width: 400px;
-    border-radius: 1rem;
     justify-content: center;
 }
 
 .Elven {
     height: 370px;
     width: 400px;
-    border-radius: 1rem;
-    justify-content: center;
+   justify-content: center;
 }
 
 .Hest {
     height: 370px;
     width: 400px;
-    border-radius: 1rem;
     justify-content: center;
 }
 
 .Tvillinger {
     height: 470px;
     width: 500px;
-    border-radius: 1rem;
     justify-content: center;
 }
 
@@ -166,14 +162,12 @@ main h5 {
 .Nepal {
     height: 470px;
     width: 500px;
-    border-radius: 1rem;
     justify-content: center;
 }
 
 .Masai-kvinner {
     height: 470px;
     width: 500px;
-    border-radius: 1rem;
     justify-content: center;
 
 } */
@@ -183,7 +177,6 @@ main h5 {
 /* .Morogbarn {
     height: 370px;
     width: 400px;
-    border-radius: 1rem;
     justify-content: center;
 }
 
@@ -191,7 +184,6 @@ main h5 {
 .Sovende {
     height: 300px;
     width: 300px;
-    border-radius: 1rem;
     justify-content: center;
 }
 
@@ -199,7 +191,6 @@ main h5 {
 .Portugal {
     height: 370px;
     width: 400px;
-    border-radius: 1rem;
     justify-content: center;
 }
  */
@@ -217,7 +208,6 @@ gap: 20px;
 .Images img {
     height: 350px;
     width: 380px;
-    border-radius: 1rem;
     justify-content: center;
     border: 5px solid #0b0b0b;
     
@@ -235,7 +225,6 @@ gap: 20px;
 .Images2 img {
     height: 350px;
     width: 380px;
-    border-radius: 1rem;
     justify-content: center;
     border: 5px solid #0b0b0b;
     
@@ -255,10 +244,17 @@ gap: 20px;
 .Images3 img{
     height: 350px;
     width: 380px;
-    border-radius: 1rem;
     justify-content: center;
     border: 5px solid #0b0b0b;
     
+}
+
+
+.Morten {
+    height: 350px;
+    width: 380px;
+    justify-content: left;
+    transform: translate(30px,400px);
 }
 
 
