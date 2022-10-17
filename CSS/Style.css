@@ -257,5 +257,9 @@ gap: 20px;
     transform: translate(30px,400px);
 }
 
+main h6 {
+    transform: translate(450px, 500px);
+    color: #0b0b0b;
+}
 
 
