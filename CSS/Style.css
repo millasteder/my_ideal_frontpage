@@ -264,6 +264,7 @@ footer {
 footer div {
     align-self: center;
     justify-self: center;
+    color: #0b0b0b;
 }
 
 footer .social {
@@ -294,3 +295,8 @@ footer .social {
     font-size: larger;
   }
 
+  .media {
+    color: #adff2f;
+    font-size: larger;
+    align-items: center;
+  }
