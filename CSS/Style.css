@@ -246,8 +246,15 @@ gap: 20px;
 
 
 .Morten {
-    height: 250px;
-    width: 280px;
+    height: 150px;
+    width: 200px;
+}
+
+@media screen and (min-width: 700px) {
+    .Morten {
+        height: 250px;
+        width: 280px;
+    }
 }
 
 main h6 {
@@ -258,6 +265,7 @@ main h6 {
 footer {
     background-color: #d1cfcc;
     display: flex;
+    flex-flow: row wrap;
     justify-content: space-around;
     min-height: 300px;
 }
@@ -271,6 +279,7 @@ footer div {
 footer .social {
     display: flex;
     align-items: center;
+    flex-flow: row wrap;
     gap: 10px;
 }
 
