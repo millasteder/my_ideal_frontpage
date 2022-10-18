@@ -9,7 +9,6 @@ html {
 body {
     
     background-color: #d1cfcc;
-    /* font-family: 'Peralta', cursive;  dette setter et spesifikk font-face til side */
     font-family: 'Montserrat', sans-serif; color: #ffffff;
     font-size: 20px;
     background-image: url('./background.jpeg');
@@ -46,16 +45,11 @@ header nav ul li:hover {
 }
 
 header ul {
-    display: none;
+    list-style: none;
+    display: flex;
+    gap: 20px;
 }
 
-@media screen and (min-width: 700px) {
-    header ul {
-        list-style: none;
-        display: flex;
-        gap: 20px;
-    }
-}
 
 main {
     width: 100%;
@@ -251,15 +245,52 @@ gap: 20px;
 
 
 .Morten {
-    height: 350px;
-    width: 380px;
-    justify-content: left;
-    transform: translate(30px,400px);
+    height: 250px;
+    width: 280px;
 }
 
 main h6 {
-    transform: translate(450px, 500px);
+    transform: translate(380px, 375px);
     color: #0b0b0b;
 }
 
+footer {
+    background-color: #d1cfcc;
+    display: flex;
+    justify-content: space-around;
+    min-height: 300px;
+}
+
+footer div {
+    align-self: center;
+    justify-self: center;
+}
+
+footer .social {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.Instagram {
+    height: 50px;
+    width: 50px;
+}
+
+.Facebook {
+    height: 46px;
+    width: 46px;
+}
+
+.Youtube {
+    height: 60px;
+    width: 55px;
+}
+
+
+
+  .Contact {
+    color: #adff2f;
+    font-size: larger;
+  }
 
